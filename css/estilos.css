@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---- HEADER ----*/
+header{
+    position: relative;
+    color: white;
+}
+
+.header-1{
+    position: relative;
+    display: flex;   
+    background-color: black;
+    padding: 10px;
+    
+}
+
+.izquierda{
+   
+    padding: 0px 600px;
+  
+}
+
+nav ul li{
+    
+    display: inline;
+    padding: 20px;   
+    justify-content: center; 
+}
+
+
+
+.logo-negro{
+    color: black;
+}
+
+.header-2{
+    display: flex;    
+    background-color: #F0A83E; 
+    padding: 20px;   
+}
+
+.heroe{
+    background-image: url("/img/bowl-and-pet-daities-on-green-background1.png");
+    height: 600px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.texto{
+    margin: 50px;
+}
+.placer{
+    max-width: 350px;
+    text-align: center;
+    font-size: 24px;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.descuento{
+    padding: 20px;
+}
+
+.comederos{
+    max-width: 200px;
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+    padding: 10px;
+    background-color: #F0A83E;
+    border-radius: 6px;
+    color: whitesmoke;
+}
+/* ------ Subtítulo PRODUCTOS DESTACADOS -----*/
+
+.subtitulos{
+    text-align: center;
+    padding: 100px;
+}
+
+/* ------ CARDS -------*/
+.cards{
+    
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.card-1{   
+    position: relative;      
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+/* -------- Sección CONTÁCTANOS -------------*/
+
+
+.formulario {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+    
+}
+input{
+    background-color: #3C2313;
+    margin: 2px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 15px;
+    color: white;
+    font-size: 10px;
+    
+}
+.botones{
+    display: flex;
+    position: relative;
+    margin: 1em;
+    justify-content: center;
+}
+
+.btnResetear{
+    background-color:#8A8787;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+
+.btnEnviar{    
+    background-color: #F0A83E;
+    border-radius: 6px;
+    padding: 5px;
+}
+/* --- FOOTER -----*/
+
+
+.footer-1{
+    background-color:#3C2313 ;
+    padding: 20px;
+}
+
+
+
+.footer-2{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
